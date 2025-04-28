@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+ 
+
+
+    
+
+.nav-item {
+  font-family: 'YourFontName',sans-serif; /* Replace 'YourFontName' with the actual font name */
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: 500; /* Adjust font weight as needed */
+  /* text-transform: uppercase; If you want uppercase letters */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-item:hover {
+  color: gray-300; /* Adjust hover color as needed */
+}
