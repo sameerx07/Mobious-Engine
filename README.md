@@ -12,5 +12,5 @@
 # or
 yarn dev
 
-For more information and live demo, visit website: [Waqf Property Task Tracker](https://mobiousengine.netlify.app/) 🌐
+For more information and live demo, visit website: [MobiusEngine.ai](https://mobiousengine.netlify.app/) 🌐
 
