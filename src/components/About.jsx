@@ -1,30 +1,26 @@
-// src/components/About.jsx
 import React from 'react'
-     // your background image
-// import ashwinImg from '../assets/ashwin-placeholder.jpg'
-// import nicoleImg from '../assets/nicole-placeholder.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function About() {
   return (
     <div
-      className="text-white bg-cover bg-center"
+      className="text-white bg-cover bg-center "
       style={{ backgroundImage: `url('images/about.png')` }}
     >
-      <div className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-center mb-16">About Us</h2>
+      <div className="max-w-7xl mx-auto px-4 py-8 sm:py-12 lg:py-16">
+        <h2 className="text-4xl font-bold text-center mb-8 lg:mb-12">About Us</h2>
         
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-20 lg:gap-24">
           {/* Team Member 1 */}
-          <div className="flex items-start gap-8">
+          <div className="flex items-start gap-8 lg:gap-12">
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-200/[0.1]">
-                {/* <img
-                  src={ashwinImg}
+                <img
+                  src="images/about2.png"
                   alt="Ashwin"
-                  className="w-full h-full object-cover"
-                /> */}
+                  className="w-full h-full object-fit"
+                />
               </div>
               <a
                 href="https://linkedin.com/in/ashwin-placeholder"
@@ -53,14 +49,14 @@ export default function About() {
           </div>
 
           {/* Team Member 2 */}
-          <div className="flex items-start gap-8">
+          <div className="flex items-start gap-8 lg:gap-12">
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-200/[0.1]">
-                {/* <img
-                  src={nicoleImg}
+                 <img
+                  src="images/about3.png"
                   alt="Nicole"
                   className="w-full h-full object-cover"
-                /> */}
+                /> 
               </div>
               <a
                 href="https://linkedin.com/in/nicole-placeholder"
@@ -89,7 +85,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="text-center mt-16 space-y-2">
+        <div className="text-center mt-12 sm:mt-16 space-y-2">
           <a
             href="#"
             className="text-indigo-300 hover:underline text-xl block"
